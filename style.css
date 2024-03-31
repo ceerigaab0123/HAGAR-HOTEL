@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    font-weight: 100%;
+    font-size: 1.3rem;
+}
+header{
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    padding:20px;
+    border-bottom: 1px solid rgb(241, 241, 241);
+}
+header h3{
+    color: #697c8e;
+    padding: 10px;
+}
+.abdi{
+    background-color: rgb(252, 252, 203);
+    width: 92%;
+    padding: 40px;
+    display: flex;
+    margin: auto;
+}
+.abdi img{
+    margin-right: 24px;;
+}
+.abdi div{
+    padding: 30px;
+    font-size: 2rem;
+    color: gray;
+}
+nav{
+   
+    flex-basis: 40%;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+} 
+ul li a {
+    text-decoration: none;
+    color: #697c8e;
+    font-size: 1.3rem ;
+    padding: 15px;
+    margin-right: 8px;
+}
+nav ul li a:hover{
+    background-color: rgb(240, 240, 240);
+    border-radius: 10px;
+    border: none;
+}
+nav ul li{
+    padding-bottom: 10px;
+}
+
+a{
+    text-decoration: none;
+}
+a{
+    color: #697c8e;
+}
+/* ROOMS */
+.container{
+    background-color: rgb(254, 254, 254);
+    height: 400px;
+    width: 100%;
+    margin-top: 80px;
+    border-top: 1px solid rgb(241, 241, 241) ;
+}
+.boxses{
+    height: 380px;
+    width: 95%;
+    margin: auto;
+    padding: 50px;
+    display: flex;
+}
+.box{
+    height: 240px;
+    min-width: 400px;
+    margin: 20px;
+    border: 5px solid rgb(253, 237, 237) ;
+    border-radius: 10px;
+}
+.box img{
+    width: 110%;
+}
+.title{
+    text-align: center;
+    padding-top: 20px;
+}
+.footer{
+    background-color: #697c8e;
+    height: 160px;
+    margin-top: 26px;
+    padding: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+.footer a{
+    color: white;
+}
+.subfooter {
+    background-color: lightblue;
+    height: 50px;
+    text-align: center;
+    padding: 20px;
+
+}
+.img{
+    padding: 40px;
+    margin: 40px;
+    
+}
